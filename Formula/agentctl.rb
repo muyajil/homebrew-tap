@@ -17,11 +17,11 @@ class Agentctl < Formula
 
   on_arm do
     url "https://agentctl.srv.ajil.ch/bin/agentctl-darwin-arm64", using: NetrcDownloadStrategy
-    sha256 "a528468a775354741e4b2d0c4ced82cdd17acb7e84f0f7afb259494ac1d5e5e9"
+    sha256 "2a1efd6f6552431fd5ab1da72b2c7e5d277ec3e83d72940a4f1d972a9e3c8d6f"
   end
   on_intel do
     url "https://agentctl.srv.ajil.ch/bin/agentctl-darwin-amd64", using: NetrcDownloadStrategy
-    sha256 "3065e0a463fe35bfec18ab053544c50c3dfd096800483b282018beccd9848192"
+    sha256 "81836ad051f8c8702240a6f6be141829bb990a696fcb0d8733a9aa8b6d43f9c5"
   end
 
   def install

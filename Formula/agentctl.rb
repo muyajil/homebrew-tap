@@ -13,15 +13,15 @@ end
 class Agentctl < Formula
   desc "Control plane for kernel-isolated AI agents (macOS CLI)"
   homepage "https://github.com/muyajil/agentctl"
-  version "4.5.233"
+  version "4.5.234"
 
   on_arm do
     url "https://agentctl.srv.ajil.ch/bin/agentctl-darwin-arm64", using: NetrcDownloadStrategy
-    sha256 "1b48bdd2629d310a297f90918b0ed7ddfac51347e97274616aefb8f91833d8ac"
+    sha256 "c6552a254a35dae2c667190db4117b14cb7e524fdeabb161d4c7892bd39b3d4b"
   end
   on_intel do
     url "https://agentctl.srv.ajil.ch/bin/agentctl-darwin-amd64", using: NetrcDownloadStrategy
-    sha256 "ec667b913ed1934664d15cd4c7eda5a75af40cacda9cfe2af0f9f60530003953"
+    sha256 "8827aaad4938177f284d8fb4f8d4d2ae38d8fb92050613c4dfad16f456f171db"
   end
 
   def install
